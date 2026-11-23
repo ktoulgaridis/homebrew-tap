@@ -4,28 +4,28 @@
 class Toppingctl < Formula
   desc "Control the TOPPING E2x2 USB audio interface over HID"
   homepage "https://github.com/ktoulgaridis/toppingctl"
-  version "0.1.1"
+  version "0.1.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.1/toppingctl-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "36b649dec81d6e7b8d724b4105b2b557cd5c02563e0cc7247e73b82cc31c2af3"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.2/toppingctl-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "3178aa2b7e4585fa50c586e4e3a4ca6e00ed5177a225ca73d6bc62b59836a271"
     end
     on_intel do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.1/toppingctl-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "7b8c176fabcd2374a329d4a141ef84b73310972f9d57623182e3fd5ee4b6ec8d"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.2/toppingctl-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "cdb3aecdeaca5fc1725cd1f85486f48136217e45ada273417ecbddd5919af178"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.1/toppingctl-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "16ed51522ae5c6e7da59612322e8e41887571e030ca615fab638b735d707c314"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.2/toppingctl-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f0921db795c41b51ae8197ae7370ef5a20940fcc5f532664c2ca81836e345bb3"
     end
     on_intel do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.1/toppingctl-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b223b064caa693b22e025000ad7d7bec3b1de8322cc714bd4f27313cfaf2aecc"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.2/toppingctl-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6aa9d0d98def91ce7d03241787d34002901b41a5225e8326ac4298b4e8640648"
     end
   end
 
