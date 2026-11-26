@@ -4,28 +4,28 @@
 class Toppingctl < Formula
   desc "Control the TOPPING E2x2 USB audio interface over HID"
   homepage "https://github.com/ktoulgaridis/toppingctl"
-  version "0.1.2"
+  version "0.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.2/toppingctl-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "3178aa2b7e4585fa50c586e4e3a4ca6e00ed5177a225ca73d6bc62b59836a271"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.0/toppingctl-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "47534dca3f6931dab9cd0b20644b52f1d41dffc4354489ddb30e7e64515c68ba"
     end
     on_intel do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.2/toppingctl-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "cdb3aecdeaca5fc1725cd1f85486f48136217e45ada273417ecbddd5919af178"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.0/toppingctl-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "52c6072a4e44dd4400700e22547dc17858244448753e1af1e7045d24d899db22"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.2/toppingctl-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f0921db795c41b51ae8197ae7370ef5a20940fcc5f532664c2ca81836e345bb3"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.0/toppingctl-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "23a8f6bd2bb9118a35c915f98bf404fffdf93bebcdd556785b1e9d7166f4c89b"
     end
     on_intel do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.1.2/toppingctl-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6aa9d0d98def91ce7d03241787d34002901b41a5225e8326ac4298b4e8640648"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.0/toppingctl-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "18bc05f8939e22465daf9908571a798f9eaebc47adbaf8f53da14a2d0143e6df"
     end
   end
 
