@@ -4,28 +4,28 @@
 class Toppingctl < Formula
   desc "Control the TOPPING E2x2 USB audio interface over HID"
   homepage "https://github.com/ktoulgaridis/toppingctl"
-  version "0.2.0"
+  version "0.2.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.0/toppingctl-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "47534dca3f6931dab9cd0b20644b52f1d41dffc4354489ddb30e7e64515c68ba"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.1/toppingctl-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "524a66062e9bd09c27adc4906e3e363458ef870c4856c8f6db830d869e4da039"
     end
     on_intel do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.0/toppingctl-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "52c6072a4e44dd4400700e22547dc17858244448753e1af1e7045d24d899db22"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.1/toppingctl-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "402e134de11d9605f732e811ad43fdfe9ce860f0acd741746791615c4a3dea0a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.0/toppingctl-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "23a8f6bd2bb9118a35c915f98bf404fffdf93bebcdd556785b1e9d7166f4c89b"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.1/toppingctl-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "64d1a58e9a92e7126b0214af16b1d430ead029f10b13530b1f4b08d6bc86af3b"
     end
     on_intel do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.0/toppingctl-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "18bc05f8939e22465daf9908571a798f9eaebc47adbaf8f53da14a2d0143e6df"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.1/toppingctl-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "084e813481777e3b4c3716d088132925df9e77f9a0c4d786d014cdf852846bb3"
     end
   end
 
