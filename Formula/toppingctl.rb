@@ -4,28 +4,28 @@
 class Toppingctl < Formula
   desc "Control the TOPPING E2x2 USB audio interface over HID"
   homepage "https://github.com/ktoulgaridis/toppingctl"
-  version "0.2.1"
+  version "0.2.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.1/toppingctl-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "524a66062e9bd09c27adc4906e3e363458ef870c4856c8f6db830d869e4da039"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.2/toppingctl-v0.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "2ec94a4b67fd409e8710fc82ac8ac8a7936b2c473639f489537d68814952511c"
     end
     on_intel do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.1/toppingctl-v0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "402e134de11d9605f732e811ad43fdfe9ce860f0acd741746791615c4a3dea0a"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.2/toppingctl-v0.2.2-x86_64-apple-darwin.tar.gz"
+      sha256 "99b1ab5492da53f6ef5f2690ae217da0eb05e39d3970c7c08f6705e986692a4c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.1/toppingctl-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "64d1a58e9a92e7126b0214af16b1d430ead029f10b13530b1f4b08d6bc86af3b"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.2/toppingctl-v0.2.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "12f53ba4966ebee0f9dddb36ea3b3da765a19c0d271af0a0c2a5a61013e63897"
     end
     on_intel do
-      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.1/toppingctl-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "084e813481777e3b4c3716d088132925df9e77f9a0c4d786d014cdf852846bb3"
+      url "https://github.com/ktoulgaridis/toppingctl/releases/download/v0.2.2/toppingctl-v0.2.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "096224f5cd04cd2e6b741be20ea99ca4122d9e8daf8f2fb5d6115d2338a51cf3"
     end
   end
 
